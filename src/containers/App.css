@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50px;
+}
+
+.App-header {
+  background-color: rgb(45, 23, 71);
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.Centered {
+  margin: auto;
+  position: absolute;
+  padding: 20px;
+  width: 500px;
+  right: 0;
+  left: 0;
+  top: 90px;
+  bottom: 0;
+  height: 300px;
+}
+
+.Centered-title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.Progress{
+  position: absolute !important;
+  top: 136px;   
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
